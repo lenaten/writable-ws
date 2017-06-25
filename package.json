@@ -1,0 +1,20 @@
+{
+  "name": "writable-ws",
+  "version": "1.0.0",
+  "main": "index.js",
+  "bin": {
+    "writable-ws": "./bin/cmd.js"
+  },
+  "scripts": {
+    "lint": "standard --fix"
+  },
+  "dependencies": {
+    "debug": "^2.6.8",
+    "minimist": "^1.2.0",
+    "uws": "^8.14.0"
+  },
+  "devDependencies": {
+    "standard": "^10.0.2"
+  },
+  "license": "MIT"
+}
